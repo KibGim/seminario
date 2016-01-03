@@ -1,0 +1,10 @@
+# @AZ 152128 - originale MTE textImage
+# Utilizzo template e dialogo personalizzati
+templateScript: /seminario/templates/components/TextOnly.ftl
+dialog: seminario:components/TextOnly
+modelClass: info.magnolia.templating.models.components.ImageModel
+
+renderType: freemarker
+i18nBasename: info.magnolia.templating.models.messages
+title: TextOnly
+description: Renderizza solo Titolo e Testo anche se derivato da textImage

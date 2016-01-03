@@ -1,0 +1,15 @@
+/* [MTE] componente: testo e immagine
+  Immagine non deve sforare lo spazio che ha a disposizione   */
+.text-section.text-image-section img {
+    width: 100%;
+}
+
+/* @AZ#151228
+/Users/azanchetta/magnolia-enterprise-543-light-modules-TEST/seminario/templates/components/ImageOnly.ftl
+Non riuscendo a forzare height e width direttamente sull'FTL,
+per il momento eseguo questo passaggio:
+*/
+.img-circle.piccola {
+    width: 150px;
+    height: 150px;
+}

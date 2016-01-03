@@ -1,0 +1,16 @@
+templateScript: /seminario/templates/pages/hello.ftl
+renderType: freemarker
+visible: true
+title: Hello Magnolia
+description: This is the sample Hello Magnolia page using twitter bootstrap.
+
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      html:
+        id: mte:components/html
+      textImage:
+        id: mte:components/textImage
+      GridAAAA:
+        id: seminario:components/grid

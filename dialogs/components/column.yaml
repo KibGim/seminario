@@ -1,0 +1,64 @@
+form:
+  tabs:
+    - name: tabLink
+      label: Colonne
+      fields:
+        - name: viewport
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: viewport
+          options:
+            - name: extrasmall
+              value: xs
+              selected: true
+              label: extrasmall
+            - name: small
+              value: sm
+              label: small
+            - name: medium
+              value: md
+              label: medium
+            - name: large
+              value: lg
+              label: large
+            - name: extralarge
+              value: xl
+              label: extralarge
+          sortOptions: false
+        - name: gridsize
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: gridsize
+          options:
+            - name: 2
+              value: 2
+              label: 2
+            - name: 3
+              value: 3
+              selected: true
+              label: 3
+            - name: 4
+              value: 4
+              label: 4
+            - name: 6
+              value: 6
+              label: 6
+            - name: 8
+              value: 8
+              label: 8
+            - name: 10
+              value: 10
+              label: 10
+            - name: 12
+              value: 12
+              label: 12
+          sortOptions: false
+        - name: classeAggiuntiva
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: classeAggiuntiva
+          rows: 1
+          maxLength: 20
+          description: Inserire una classe bootstrap aggiuntiva (Lunghezza Massima 20 Caratteri)
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

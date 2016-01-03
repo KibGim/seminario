@@ -1,0 +1,29 @@
+templateScript: /seminario/templates/components/column.ftl
+renderType: freemarker
+visible: true
+title: Colonna
+description: This is a Colonna component. E' composto da una area "content" al cui interno si possono aggiungere contenuti tramite componenti di tipo HTML,Links,Testi e Immagini. Il componente Colonne utilizza il dialogo (**sostiture underscore con duepunti**) dialog_ seminario_components/column
+dialog: seminario:components/column
+areas:
+  contenuto:
+    availableComponents:
+      html:
+        id: mte:components/html
+      textImage:
+        id: mte:components/textImage
+  contenutiTuttiMTE:
+    availableComponents:
+      textImage:
+        id: mte:components/textImage
+      link:
+        id: mte:components/link
+      linkList:
+        id: mte:components/linkList
+      teaserInternal:
+        id: mte:components/teaserInternal
+      teaserExternal:
+        id: mte:components/teaserExternal
+      teaserDownload:
+        id: mte:components/teaserDownload
+      html:
+        id: mte:components/html

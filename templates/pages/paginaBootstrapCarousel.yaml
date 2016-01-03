@@ -1,0 +1,28 @@
+templateScript: /seminario/templates/pages/paginaBootstrapCarousel.ftl
+renderType: freemarker
+visible: true
+title: paginaBootstrapCarousel
+description: Questa e' una pagina  che utilizza twitter bootstrap - parte come statica.
+
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      html:
+        id: mte:components/html
+      textImage:
+        id: mte:components/textImage
+      GridAAAA:
+        id: seminario:components/grid
+  ImageOnly:
+    renderType: freemarker
+    description: questa e' un area "ImageOnly" allo stesso livello dell area "main"
+    availableComponents:
+      textImage:
+        id: seminario:components/ImageOnly
+  TextOnly:
+    renderType: freemarker
+    description: questa e' un area "TextOnly" allo stesso livello dell area "main"
+    availableComponents:
+      textImage:
+        id: seminario:components/TextOnly

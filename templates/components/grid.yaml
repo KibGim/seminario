@@ -1,0 +1,12 @@
+templateScript: /seminario/templates/components/grid.ftl
+renderType: freemarker
+visible: true
+title: Grid
+description: This is a grid component.A parent container for for columns. Il componente grid utilizza il dialogo (**sostiture underscore con duepunti**) dialog_ seminario_components/grid
+dialog: seminario:components/grid
+areas:
+  columns:
+    renderType: freemarker
+    availableComponents:
+      ComponenteColumn:
+        id: seminario:components/column
